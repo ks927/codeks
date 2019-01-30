@@ -1,18 +1,9 @@
 ---
 layout: page
-title: About
+title: Purpose
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### Why blog?
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Virtually every week since I've started working full-time as a software developer, I've encountered a problem that I did not know how to solve - often not even where to begin. Everyday I use Google to search "how to do X" or "X not working" in hopes of finding a StackOverflow or blog post that addresses my specific question. While most of the time I adapt what I find to fit my situation, there are some circumstances where a solution is little more than a copy-past job. The more resources available, the better the odds are of finding exactly what you are looking for. This blog is a way for me to share my experiences and add to the pool of resources in hopes of making someone else's job easier. 
