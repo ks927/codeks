@@ -340,9 +340,16 @@
    display: block;
    font-size: 24px; }
 
- ul.categories li {
-   display: 'inline';
+ .categories > a {
+   border: 1px solid;
+   border-radius: 5px;
+   font-size: 12px;
+   padding: 4px;
  }
+
+//  ul.categories li {
+//    display: 'inline';
+//  }
  
  /**
   * Posts
