@@ -5,13 +5,13 @@ date:   2019-02-01 20:40:45 -0500
 categories: [React Native, iOS]
 ---
 
-# Native Modules
+# Using Native Modules to Keep Users Logged In
 
 Let's say you're re-writing your iOS application in React Native and pushing the update live in a few days. In order to keep users logged in, each codebase checks for a session stored in their individual local storage system. iOS uses NSUserDefaults and React Native uses AsyncStorage. However, when a user downloads the update, nothing is going to be stored in AsyncStorage. Thus, they will be forced to log back in - not an ideal user experience.
 
 Fortunately, React Native has a built-in way to communicate with iOS/Android native code. I will start with iOS. Though intimidating at first, it is a fairly simple process. Here is what we will need:
 
-- A bridge from iOS to connect to NSUserDefaults
+- A bridge from the iOS codebase in Objective-C
 - A way to access that bridge in React Native
 
 Read the [Native Module Docs](https://facebook.github.io/react-native/docs/native-modules-ios) to skip this paragraph. In my example, my header file will be named UserToken, and it will import and extend the RCTBridgeModule to expose the class we need. 
@@ -29,10 +29,10 @@ My implementation file will expose the class using `RCT_EXPORT_MODULE()` and the
 
 - the name of the method
 - the parameter supplied to that method, in our case the name of the token as stored in NSUserDefaults
-- the resolver
+- the resolver that will resolve the promise and return the token from NSUserDefaults
 - and the rejecter of the promise.
 
-The method takes a string as a parameter, in case there are other tokens stored in iOS that the React Native app needs.
+The method takes a string as a parameter, in case there are other tokens stored in iOS that the React Native app needs. I'm presenting it this way because, in my case, I needed to be able to declare the name of the iOS token in the React Native code. 
 
     // UserToken.m
     #import "UserToken.h"
