@@ -59,7 +59,7 @@ The method takes a string as a parameter, in case there are other tokens stored 
 
     @end
 
-Now that the iOS code is exposed using the RCtBridgeModule, we can access it in the React Native codebase. It is as simple as importing the module.
+Now that the iOS code is exposed using the RCTBridgeModule, we can access it in the React Native codebase. It is as simple as importing the module.
 
     import { NativeModules } from 'react-native'
     const iosTokens = NativeModules.UserToken;
