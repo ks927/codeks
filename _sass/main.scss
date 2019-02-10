@@ -403,6 +403,13 @@
   .post-content > h1 {
     color: #292e31;
   }
+
+  .post-content p > a {
+    color: #ff007d
+  }
+    .post-content p > a:hover {
+      color: blueviolet;
+    }
   
   #post-categories {
     font-size: 12px;
