@@ -23,7 +23,7 @@ just_comments_api_key: f3783cc6-1738-4e70-b053-691627f9ce47
 #   Google search results) and in your feed.xml site description.
 baseurl: "/codeks" # the subpath of your site, e.g. /blog
 url: "https://ks927.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: kyle_rb
+twitter_username: _kyle_rb
 github_username:  ks927
 
 # Build settings

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Add Offline Notice Banner in React Native App"
-date:   2019-02-01 20:40:45 -0500
+date:   2019-02-08 20:40:45 -0500
 categories: [React Native]
 ---
 
