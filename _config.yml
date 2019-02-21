@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: codeKS
+title: A Programming Blog
 email: ksheehan927@gmail.com
 google_analytics: UA-133921182-1
 just_comments_api_key: f3783cc6-1738-4e70-b053-691627f9ce47
@@ -21,7 +21,7 @@ just_comments_api_key: f3783cc6-1738-4e70-b053-691627f9ce47
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
-baseurl: "/codeks" # the subpath of your site, e.g. /blog
+baseurl: "/aprogrammingblog" # the subpath of your site, e.g. /blog
 url: "https://ks927.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: _kyle_rb
 github_username:  ks927
