@@ -9,13 +9,13 @@ categories: [React Native]
 
 Most apps have a "Share on 'other app'" button these days. That button most likely opens another app on your device, and maybe even pre-populates an input with custom text for you. React Native, once again, makes adding this feature fairly straightforward and painless. Both for iOS and Android. Here is an example of a screen with multiple options, and the following is how to get those buttons to work to open their apps and fill in custom text for the user.
 
-![invite page]({{ site.url }}/aprogrammingblog/assets/images/invitepage.png "Invite Page"){:class="img-sm-landscape"}
+![invite page]({{ site.url }}/assets/images/invitepage.png "Invite Page"){:class="img-sm-landscape"}
 
-![share buttons]({{ site.url }}/aprogrammingblog/assets/images/share_buttons.png "Invite Page"){:class="img-landscape"}
+![share buttons]({{ site.url }}/assets/images/share_buttons.png "Invite Page"){:class="img-landscape"}
 
 If we set up each button to hit the same function, as I've done above, a simple switch statement will take care of all of our functionality. React Native's [Linking](https://facebook.github.io/react-native/docs/linking) API allows us to open external links from within our app. 
 
-![share function]({{ site.url }}/aprogrammingblog/assets/images/share_function3.png "Invite Page"){:class="img-landscape"}
+![share function]({{ site.url }}/assets/images/share_function3.png "Invite Page"){:class="img-landscape"}
 
 When a user clicks **SMS**, our function needs to check whether he is using an iPhone or Android, due to slight variations in syntax. In *iOS*,  `'sms:number&body=' + YOUR_MESSAGE`, uses the & between parameters; while Android `'sms:number?body=' + YOUR_MESSAGE` uses the ?. In my case, I wanted to leave the number blank, so the user could fill in their contact with my message filling the body of the text. 
 
