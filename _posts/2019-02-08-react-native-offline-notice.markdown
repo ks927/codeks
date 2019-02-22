@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to Add Offline Notice Banner in React Native App"
+subtitle: "Notifying Users When Their Connection is Down"
 date:   2019-02-08 20:40:45 -0500
 categories: [React Native]
 ---
@@ -11,6 +12,8 @@ categories: [React Native]
 
 User experience-wise, it is always more convenient to display through the app when there is no internet connection. This way, users won't assume the app is broken and immediately call your customer support number - when the only problem is they've lost the internet. Aside from a couple tricks, adding this feature is super simple in React Native.
 
+# Offline Notice Component
+
 React Native comes with a [NetInfo](https://facebook.github.io/react-native/docs/netinfo) module that does all the heavy lifting for you. All you need to do is create the component, style it the way you want, and stick it in your top-level App.js class. I used [this post on Medium](https://medium.com/dailyjs/offline-notice-in-react-native-28a8d01e8cd0) as a guide, but made a few minor tweaks.
 
 ![offline component 1]({{ site.url }}/assets/images/offline_component1.png "Offline Component 1"){:class="img-landscape"}
@@ -20,6 +23,8 @@ First, It is important to instantiate your state variable to assume there is int
 ![offline component 2]({{ site.url }}/assets/images/offline_component2.png "Offline Component 2"){:class="img-landscape"}
 
 This code is fairly self-explanatory. handleConnectivityChange is given a boolean argument for the connection status. Each time the connection changes, we set that boolean in state. If the status is false, then we return the Offline Notice Banner, else we just return null.
+
+# Rendering Throughout the App
 
 ![offline component 3]({{ site.url }}/assets/images/offline_component3.png "Offline Component 3"){:class="img-landscape"}
 

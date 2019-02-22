@@ -1,9 +1,12 @@
 ---
 layout: post
 title:  "My Self Education Journey"
+subtitle: "Self Taught to Employed in < 2 Years"
 date:   2019-01-25 20:40:45 -0500
 categories: [career]
 ---
+
+# What is this Post and Why Did I Write it?
 
 This is the story of how I went from never having coded in my life to employed as a full-stack developer in just over two years. This is not a self-help article about how to land your dream job at a Big-N company as quickly as possible. Nor is it another one of those ‘self-taught dev’ stories about an author who had been programming for fun since he was 10 years old, or whose uncle hired him as an intern at the company he owns. On the other side of the coin, I’m not going to tell you I was a full-time working father of four kids under the age of two. I’m not slighting those people - everyone has their own path - but I read way too many posts and articles of that nature during my journey, and all they did was discourage me and fill me with doubt. The following is simply an account of where I started, why I started, and how I got to where I am. There were no tricks or short cuts. I’m not a genius and I've never been very good at math, and I will admit to a decent amount of luck that led to my break. Having said that, I’m a firm believer in ‘you make your own luck’. If it weren’t for my hard work and willingness to put myself out there, I would not have had the opportunities for good fortune. One of the many reasons I love the programming community is everyone’s desire to help each other and to give back to the tribe. Everyone is searching for other people like them, and the more content thats out there means a higher chance they will find something relatable. Writing this is the beginning of my attempts to give back, and if it helps just one person, then it will have been worth posting. So here is my story, take from what it what you will.
 
@@ -52,3 +55,10 @@ I've mentioned luck numerous times, and feel I should elaborate on what I mean. 
 Both of these situations seem like cases of "right place, right time", but neither would have happened if I wasn't willing, despite my uncertainty, to put myself out there and risk being rejected. To take it one step further, I wouldn't have been in the position to put myself out there if I didn't convince myself the sacrifice was worth it, and commit myself to the process. Once I figured out what I wanted, I lived, ate, and breathed code. My personal mantra through those months grinding in the library and taking home barely enough money to feed myself was "it isn't over until you give up". As long as you keep pushing everyday, or however often you can afford to, eventually you will make it to the end goal. Only when you decide to give up, will the dream be over. It's easy to get discouraged reading about people who get offers for $100k+/year after 6 months, but everyone's path is different, and you should only compare yourself to *yourself* the day/week/month before. It takes hard work and a little luck, and patience to get to your first break. But remember it's not over until you give up.
 
 Good luck and thanks for reading!
+
+# Some Useful Resources
+
+[r/learnprogramming](http://reddit.com/r/learnprogramming)  
+[r/cscareerquestions](http://reddit.com/r/cscareerquestions)  
+[The Odin Project](http://theodinproject.com)  
+[AngelList](http://angel.co)  

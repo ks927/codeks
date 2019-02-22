@@ -14,11 +14,10 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
+        <h4 class="post-subtitle">{{ post.subtitle }}</h4>
         <div class="categories">
             {% for category in post.categories %}
               <a>{{ category }}</a>

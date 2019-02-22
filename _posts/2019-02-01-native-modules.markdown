@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to Access iOS NSUserDefaults with React Native"
+subtitle: "Creating Custom React Native Modules"
 date:   2019-02-01 20:40:45 -0500
 categories: [React Native, iOS]
 ---
@@ -13,6 +14,8 @@ Fortunately, React Native has a built-in way to communicate with iOS/Android nat
 
 - A bridge from the iOS codebase in Objective-C
 - A way to access that bridge in React Native
+
+# Objective-C
 
 Read the [Native Module Docs](https://facebook.github.io/react-native/docs/native-modules-ios) to skip this paragraph. In my example, my header file will be named UserToken, and it will import and extend the RCTBridgeModule to expose the class we need. 
 
@@ -58,6 +61,8 @@ The method takes a string as a parameter, in case there are other tokens stored 
         }
 
     @end
+
+# React Native
 
 Now that the iOS code is exposed using the RCTBridgeModule, we can access it in the React Native codebase. It is as simple as importing the module.
 

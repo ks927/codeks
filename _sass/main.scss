@@ -209,7 +209,8 @@
    min-height: 55.95px;
    position: relative;
    width: 70%;
-   margin: 0 auto; }
+   margin: 0 auto;
+   margin-bottom: 15px; }
  
  .site-title {
    color: #808080;
@@ -356,7 +357,11 @@
  
  .post-meta {
    font-size: 14px;
-   color: #828282; }
+   color: blueviolet; }
+
+ .post-subtitle {
+  //  color: blueviolet;
+ }
  
  .post-link {
    display: block;
@@ -425,6 +430,8 @@
 
   .post-content > h1 {
     color: #292e31;
+    font-weight: 500;
+    font-size: 20px;
   }
 
   .post-content p > a {

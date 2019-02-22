@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Opening External Apps from React Native"
+subtitle: "How to Use React Native Linking"
 date:   2019-02-15 20:40:45 -0500
 categories: [React Native]
 ---
@@ -12,6 +13,8 @@ Most apps have a "Share on 'other app'" button these days. That button most like
 ![invite page]({{ site.url }}/assets/images/invitepage.png "Invite Page"){:class="img-sm-landscape"}
 
 ![share buttons]({{ site.url }}/assets/images/share_buttons.png "Invite Page"){:class="img-landscape"}
+
+# One Function to Rule Them All
 
 If we set up each button to hit the same function, as I've done above, a simple switch statement will take care of all of our functionality. React Native's [Linking](https://facebook.github.io/react-native/docs/linking) API allows us to open external links from within our app. 
 
