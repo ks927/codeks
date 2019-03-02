@@ -68,3 +68,5 @@ Good luck and thanks for reading!
 [r/cscareerquestions](http://reddit.com/r/cscareerquestions)  
 [The Odin Project](http://theodinproject.com)  
 [AngelList](http://angel.co)  
+[Pomodor timer](https://tomato-timer.com/)  
+[Deep Work](https://www.goodreads.com/book/show/25744928-deep-work)
