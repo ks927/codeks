@@ -2,7 +2,7 @@
 layout: post
 title:  "Implementing a Closest String Match in MySQL"
 subtitle: "How to Utilize Navicat Functions"
-date:   2019-02-15 20:40:45 -0500
+date:   2019-03-1 20:40:45 -0500
 categories: [MySql]
 ---
 
