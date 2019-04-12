@@ -40,6 +40,6 @@ Here is a rundown of things I had experience with before, compared to what I’v
 
 But more important than the specific languages/frameworks/tools I’ve dealt with, it’s been about being dynamic. The ability to rapidly pick up whatever the day calls for is a much more valuable trait than experience in only one specific area. At least for my position as a full-stack generalist.
 
-### Part 2 coming soon...
+### [Check out Part 2]({{ "/career/2019/04/06/your-first-job2.html" | absolute_url }})
 
 
