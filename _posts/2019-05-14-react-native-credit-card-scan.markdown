@@ -6,7 +6,7 @@ date:   2019-05-14 10:40:45 -0500
 categories: [React Native]
 ---
 
-# Install NPM package
+<!-- # Install NPM package
 
 (1) npm install react-native-awesome-card-io --save
 
@@ -38,7 +38,7 @@ Here is how I solved the issue.
 
 (10) $$$
 
-# Implementing the CardIOModule
+# Implementing the CardIOModule -->
 
 
 
