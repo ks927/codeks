@@ -6,7 +6,9 @@ date:   2019-05-14 10:40:45 -0500
 categories: [React Native]
 ---
 
-# Install NPM package
+# Install react-native-awesome-card-io NPM package
+
+[react-native-awesome-card-io](https://github.com/Kerumen/react-native-awesome-card-io)
 
 (1) npm install react-native-awesome-card-io --save
 
@@ -19,7 +21,7 @@ Here is how I solved the issue.
 
 (3) In XCode, right-click the Libraries folder
 
-![XCode Libraries]({{ site.url }}/assets/images/scancard_xcode.png "Libraries"){:class="img-portrait"}
+![XCode Libraries]({{ site.url }}/assets/images/scancard_xcode_rclick.png "Libraries"){:class="img-portrait"}
 
 
 (4) Select `Add Files to APP_NAME`
@@ -39,6 +41,10 @@ Here is how I solved the issue.
 (10) $$$
 
 # Implementing the CardIOModule
+
+This part is self-explanatory from the [react-native-awesome-card-io docs](https://github.com/Kerumen/react-native-awesome-card-io). Here is the screenshot they provide of the CardIOModule that is supported by both iOS and Android.
+
+![CardIO Module]({{ site.url }}/assets/images/scancard_cardio_module.png "CardIO Module"){:class="img-landscape"}
 
 
 
