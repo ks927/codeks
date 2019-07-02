@@ -18,7 +18,9 @@ During a code review, my boss found an alarming pattern in my SQL queries. I was
 
 Obviously I’ve heard of <strong>SQL injection</strong>, but being limited in database experience, I did not know what it actually was or how to avoid it. So my boss said to me, “what if a user makes a network request with the parameters…” and proceeded to write this in my test file: `Drop database internal;` (internal being the nanme of the db). I got his jist, but before I could erase the line and make my changes, he brought me to his computer to show me what he was working on. I returned to my machine twenty minutes later and ran the test file, completely forgetting about his example line, and my database was history. 
 
-The way to avoid malicious injection using my screenshot above would be to validate and assign the user input to a variable, and then place it into the query. For example:
+# Sanitization
+
+One way to avoid malicious injection using my screenshot above would be to validate and assign the user input to a variable, and then place it into the query. This is called **sanitizing** the input, and is only one method of prevention. For example:
 
 ![var declaration]({{ site.url }}/assets/images/sql_injection_var.png "user_id declaration"){:class="img-landscape"}
 
