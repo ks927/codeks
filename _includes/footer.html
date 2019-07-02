@@ -15,15 +15,16 @@
               {{ site.title | escape }}
             {%- endif -%}
             </li> -->
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- if site.github_username -%}
+            <li><a class="u-email" href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a></li>
+            <!-- <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li> -->
             {%- endif -%}
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <!-- <div class="footer-col footer-col-2">
         {%- include social.html -%}
-      </div>
+      </div> -->
 
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Opening External Apps from React Native"
+title:  "Opening Deep Links In React Native"
 subtitle: "How to Use React Native Linking"
 date:   2019-02-15 20:40:45 -0500
 categories: [React Native]
