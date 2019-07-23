@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "How to Crop and Display .png Pictures in PHP"
+subtitle: "And How to Hide the Transparent Background"
+date:   2019-07-22 10:40:45 -0500
+categories: [PHP]
+---
+
+# Demystifying PHP's Image Functions
+
+![Image Functions]({{ site.url }}/assets/images/cropped_img.png "Image Functions"){:class="img-landscape"}
+
+
+**imagecreatefrompng($filename)** - Returns an ‘image resource identifier’ (or a special type of object that stores information about the image you’re creating) representing the image obtained from the $filename. 
+
+**imagecreatetruecolor($width, $height)** - Returns an image identifier representing a black image of the specified dimensions. [Stackoverflow Answer](https://stackoverflow.com/questions/18574743/what-is-an-image-resource-identifier)
+
+**Imagecolorallocatealpha($img, $red(0-255), $blue(0-255), $green(0-255), $alpha(0-127)** - allocates a color with transparency parameter ($alpha) for the image object created from imagecreatetruecolor(). 0 is opaque and 127 is transparent.
+
+**imagecolortransparent($img, $color)** - gets or sets the transparent color from imagecolorallocatealpha() in the given image created by the imagecreatetruecolor().
+
+**imagecopyresampled($dst_img, $src_img, $dst_x, $dst_y, $src_x, $src_y, $dst_w, $dst_h, $src_w, $src_h)** - copies $src_img at coordinates ($src_x, $src_y) with dimensions $src_w, $src_h onto $dst_img retaining clarity despite shrinking the size.  
