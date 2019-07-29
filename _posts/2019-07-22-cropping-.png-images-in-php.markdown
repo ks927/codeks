@@ -18,7 +18,7 @@ I will only address the server-side implementation. On the client-side, I used J
 
 `mime_content_type($filename)` - Returns the MIME type of the media file. In my case, I only want to accept `image/jpeg`, `image/gif` or `image/png`.
 
-`imagecreatefrompng($filename)` - Returns an ‘image resource identifier’ (or a special type of object that stores information about the image you’re creating) representing the image obtained from the $filename. 
+`imagecreatefrompng($filename)` - Returns an ‘image resource identifier’ (or a special type of object that stores information about the image you’re creating) representing the image obtained from the `$filename`. 
 
 `imagecreatetruecolor($width, $height)` - Returns an image identifier representing a black image of the specified dimensions. [Stackoverflow Answer](https://stackoverflow.com/questions/18574743/what-is-an-image-resource-identifier)
 
@@ -32,5 +32,5 @@ I will only address the server-side implementation. On the client-side, I used J
 
 # In English Please
 
-Let's translate that technical jargon to something we can wrap our heads around. I'm creating a **black** image resource identifier with the new size dimensions that I want and then setting its color attribute to be **transparent**. I then *fill* that image with the transparent color, physically changing the image from black to transparent. Finally, I am copying the uploaded image ($filename) onto this new transparent image with the smaller dimensions. And that's **ALL** it takes to create an icon in PHP! 
+Let's translate that technical jargon to something we can wrap our heads around. I'm creating a **black** image resource identifier with the new size dimensions that I want and then setting its color attribute to be **transparent**. I then *fill* that image with the transparent color, physically changing the image from black to transparent. Finally, I am copying the uploaded image (`$filename`) onto this new transparent image with the smaller dimensions. And that's **ALL** it takes to resize an image icon in PHP! 
 
