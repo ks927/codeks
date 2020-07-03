@@ -10,4 +10,4 @@ Virtually every week since I've started working full-time as a software develope
 
 ### A bit of Self-Indulgence
 
-Whenever I find a blog that addresses my question, I hate any kind of fluff leading up to the solution. Therefore, for the most part, my posts will be as straight-to-the-point as possible. However, I am also using this blog partially for selfish reasons. I love writing and self-improvement, and I want an outlet for improving my writing. In addition to simple, straightforward solution posts, longer, more personal articles will be sprinkled in. At best I hope to relate to readers, and at worst, to channel narcissism into a way to improve myself.
+When I find a blog that addresses my question, I hate any kind of fluff leading up to the solution. So for the most part, my posts will be as straight-to-the-point as possible. However, I am also using this blog partially for selfish reasons. I love writing and self-improvement, and I want an outlet for improving my writing. In addition to simple, straightforward solution posts, longer, more personal articles will be sprinkled in. At best I hope to relate to readers. At worst, to improve myself.
